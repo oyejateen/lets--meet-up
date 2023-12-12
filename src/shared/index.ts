@@ -2,7 +2,7 @@ export const config = {
     logoCount: 5,
     firebaseConfig: {
         apiKey: "AIzaSyBDv12yuO9mC1gAaoC2-4hVc-6HpOdjtNo",
-          authDomain: "longmeet-d8fb9.firebaseapp.com",
+          authDomain: "https://lets-meet-up.vercel.app/",
           projectId: "longmeet-d8fb9",
           storageBucket: "longmeet-d8fb9.appspot.com",
           messagingSenderId: "712828169711",
