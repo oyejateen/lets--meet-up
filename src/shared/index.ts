@@ -1,13 +1,13 @@
 export const config = {
     logoCount: 5,
     firebaseConfig: {
-        apiKey: "AIzaSyBDv12yuO9mC1gAaoC2-4hVc-6HpOdjtNo",
-          authDomain: "https://lets-meet-up.vercel.app/",
-          projectId: "longmeet-d8fb9",
-          storageBucket: "longmeet-d8fb9.appspot.com",
-          messagingSenderId: "712828169711",
-          appId: "1:712828169711:web:8a317461412d786dfa9a1a",
-          measurementId: "G-6NSLCV7J3R"
+       apiKey: "AIzaSyD3fkMDjR-NGpTwy0nxvyOcNbrcUL5EFZw",
+        authDomain: "lets-meet-up-98e67.firebaseapp.com",
+        projectId: "lets-meet-up-98e67",
+        storageBucket: "lets-meet-up-98e67.appspot.com",
+        messagingSenderId: "504378733822",
+        appId: "1:504378733822:web:c600b27e0c3bd86e8021af",
+        measurementId: "G-CMLFRG02HP"
     },
     servers: {
         iceServers: [
