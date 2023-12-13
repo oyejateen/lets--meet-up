@@ -1,13 +1,13 @@
 export const config = {
     logoCount: 5,
     firebaseConfig: {
-       apiKey: "AIzaSyD3fkMDjR-NGpTwy0nxvyOcNbrcUL5EFZw",
-        authDomain: "lets-meet-up-98e67.firebaseapp.com",
-        projectId: "lets-meet-up-98e67",
-        storageBucket: "lets-meet-up-98e67.appspot.com",
-        messagingSenderId: "504378733822",
-        appId: "1:504378733822:web:c600b27e0c3bd86e8021af",
-        measurementId: "G-CMLFRG02HP"
+         apiKey: "AIzaSyAMAjXiSWZkcW_6qPayHphe-C_MJY4uO-Q",
+         authDomain: "lets-meet-up-2d2da.firebaseapp.com",
+         projectId: "lets-meet-up-2d2da",
+         storageBucket: "lets-meet-up-2d2da.appspot.com",
+         messagingSenderId: "324602857399",
+         appId: "1:324602857399:web:891da3a3688b0e3f100a32",
+         measurementId: "G-TEYC9H1XB8"
     },
     servers: {
         iceServers: [
@@ -21,3 +21,5 @@ export const config = {
     DEV: "development" === 'development',
 }
 
+export const firebase = firebase.initializeApp(config.firebaseConfig);
+export const db = firebase.firestore();
